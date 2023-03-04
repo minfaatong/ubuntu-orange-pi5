@@ -318,6 +318,7 @@ ldconfig
 
 # Set board for wiringpi
 echo "BOARD=orangepi5" > /etc/orangepi-release
+apt-mark hold wiringpi
 
 # Improve mesa performance 
 echo "PAN_MESA_DEBUG=gofaster" >> /etc/environment
